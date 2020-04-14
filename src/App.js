@@ -5,6 +5,9 @@ import AddedFeatures from './components/AddedFeatures';
 import AdditionalFeatures from './components/AdditionalFeatures';
 import Total from './components/Total';
 
+// Things needed for redux
+import { createStore } from "redux";
+
 const App = () => {
   const state = {
     additionalPrice: 0,
